@@ -1,0 +1,114 @@
+{
+    IBClasses = (
+        {CLASS = ExtendedMenuItem; LANGUAGE = ObjC; SUPERCLASS = NSMenuItem; }, 
+        {CLASS = ExtentedMenuItem; LANGUAGE = ObjC; SUPERCLASS = NSMenuItem; }, 
+        {
+            ACTIONS = {pasteAsQuoted = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                addSenderToAddressBook = id; 
+                applyManualFilter = id; 
+                changeTextEncoding = id; 
+                checkForUpdates = id; 
+                close = id; 
+                compactMailbox = id; 
+                composeMessage = id; 
+                copy = id; 
+                customizeToolbar = id; 
+                cut = id; 
+                deleteOrUndeleteMessage = id; 
+                enterSelectionInFindPanel = id; 
+                findNext = id; 
+                findPrevious = id; 
+                forwardMessage = id; 
+                getNewMessages = id; 
+                importMailboxes = id; 
+                makeFilterFromListId = id; 
+                makeFilterFromSender = id; 
+                makeFilterFromSubject = id; 
+                markMessageAsFlaggedOrUnflagged = id; 
+                markMessageAsReadOrUnread = id; 
+                newViewerWindow = id; 
+                nextUnreadMessage = id; 
+                paste = id; 
+                previousUnreadMessage = id; 
+                printMessage = id; 
+                redirectMessage = id; 
+                replyToMessage = id; 
+                restoreDraft = id; 
+                saveAllAttachments = id; 
+                saveAttachment = id; 
+                saveInDrafts = id; 
+                saveTextFromMessage = id; 
+                selectAllMessagesInThread = id; 
+                selectionInTextViewHasChanged = id; 
+                showAboutPanel = id; 
+                showAddressBook = id; 
+                showAllHeaders = id; 
+                showConsoleWindow = id; 
+                showFindWindow = id; 
+                showMailboxInspectorPanel = id; 
+                showMailboxManager = id; 
+                showOrHideDeletedMessages = id; 
+                showOrHideReadMessages = id; 
+                showOrHideTableColumns = id; 
+                showOrHideToolbar = id; 
+                showPreferencesWindow = id; 
+                showRawSource = id; 
+                sortByDate = id; 
+                sortByName = id; 
+                sortByNumber = id; 
+                sortBySize = id; 
+                sortBySubject = id; 
+                threadOrUnthreadMessages = id; 
+            }; 
+            CLASS = GNUMail; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                columns = NSMenu; 
+                create = NSMenuItem; 
+                customizeToolbar = NSMenuItem; 
+                delete = NSMenuItem; 
+                deleteOrUndelete = NSMenuItem; 
+                deliver = NSMenuItem; 
+                dock = NSMenu; 
+                drafts = NSMenu; 
+                edit = NSMenu; 
+                enterSelection = NSMenuItem; 
+                filters = NSMenu; 
+                find = NSMenu; 
+                forward = NSMenu; 
+                incomingMailServers = NSMenu; 
+                info = NSMenu; 
+                mailbox = NSMenu; 
+                markAsFlaggedOrUnflagged = NSMenuItem; 
+                markAsReadOrUnread = NSMenuItem; 
+                menu = NSMenu; 
+                message = NSMenu; 
+                messageFilter = NSMenu; 
+                rename = NSMenuItem; 
+                reply = NSMenu; 
+                save = NSMenu; 
+                saveInDrafts = NSMenuItem; 
+                selectAllMessagesInThread = NSMenuItem; 
+                services = NSMenu; 
+                showAllHeaders = NSMenuItem; 
+                showOrHideDeleted = NSMenuItem; 
+                showOrHideRead = NSMenuItem; 
+                showOrHideToolbar = NSMenuItem; 
+                showRawSource = NSMenuItem; 
+                sorting = NSMenu; 
+                textEncodings = NSMenu; 
+                threadOrUnthreadMessages = NSMenuItem; 
+                view = NSMenu; 
+                windows = NSMenu; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}

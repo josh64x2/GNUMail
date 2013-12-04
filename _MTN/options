@@ -1,0 +1,4 @@
+  branch "com.collaboration-world.gnumail"
+database "/var/db/monotone/server.mtn"
+     key ""
+  keydir "/etc/monotone/private-keys"

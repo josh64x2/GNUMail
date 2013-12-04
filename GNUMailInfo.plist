@@ -1,0 +1,51 @@
+{
+  ApplicationDescription = "A GNUstep mail client.";
+  ApplicationName = "GNUMail.app";
+  ApplicationRelease = "1.2.0";
+  ApplicationURL = "http://www.collaboration-world.com/gnumail";
+  Authors = ("See docs/WHOIS for the complete list of contributors.", "Ludovic Marcotte <ludovic@Sophos.ca> and contributors");
+  Copyright = "Copyright (C) 1999 ... 2007 Ludovic Marcotte and contributors.";
+  CopyrightDescription = "Released under the GNU General Public License 2.0";
+  FullVersionID = "1.2.0 September 2007";
+  NSIcon = "GNUMail.tiff";
+
+  NSServices = (
+      {
+        NSPortName = GNUMail;
+        NSMessage = newMessageWithContent;
+        NSSendTypes = (NSStringPboardType);
+        NSMenuItem = {
+          default = "GNUMail/New Mail with content";
+ 	  Czech = "GNUMail/Nov\u00fd mail s obsahem";
+	  German = "GNUMail/Neue Mail mit Inhalt";
+	  Swedish = "GNUMail/Nytt brev med inneh\u00e5ll";
+        };
+        NSKeyEquivalent = {
+          default = n;
+        };
+      },
+      {
+        NSPortName = GNUMail;
+        NSMessage = newMessageWithRecipient;
+        NSSendTypes = (NSStringPboardType);
+        NSMenuItem = {
+          default = "GNUMail/New Mail with recipient";
+	  Czech = "GNUMail/Nov\u00fd mail s p\u00f8\u00edjemcem";
+	  German = "GNUMail/Neue Mail mit Empf\u00e4nger";
+	  Swedish = "GNUMail/Nytt brev med mottagare";
+        };
+        NSKeyEquivalent = {
+          default = m;
+        };
+      },
+      {
+        NSPortName = GNUMail;
+        NSMessage = newMessageWithAttachments;
+        NSSendTypes = (NSFilenamesPboardType);
+        NSMenuItem = {
+          default = "GNUMail/New Mail with attachment(s)";
+          Czech = "GNUMail/Nov\u00fd mail s p\u00f8\u00edlohou";
+        };
+      }
+  );
+}
